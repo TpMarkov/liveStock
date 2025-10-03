@@ -199,6 +199,10 @@
     @apply text-gray-400 flex-col gap-4 md:gap-10 items-center sm:items-start;
   }
 
+  .home-section {
+    @apply w-full gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3;
+  }
+
   .header-wrapper {
     @apply flex justify-between items-center px-6 py-4 text-gray-500;
   }
@@ -207,8 +211,6 @@
     @apply mx-auto max-w-screen-2xl px-4 md:px-6 lg:px-8;
   }
 
-  .home-section {
-    @apply w-full gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3;
-  }
+
 
 }
