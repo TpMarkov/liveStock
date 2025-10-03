@@ -44,25 +44,28 @@ const SignUp = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         {/* Inputs */}
         <InputField
-          name="fullNmae"
+          name="fullName"
           label="Full Name"
           register={register}
           error={errors.fullName}
           placeholder="John Doe"
-          validation={{ required: "Full name is required", minLenght: 2 }}
-        />
+          validation={{ required: "Full name is required", minLength: 2 }}
+        />{" "}
         <InputField
           name="email"
           label="Email"
           type="email"
           validation={{
             required: "Email is required",
-            patern: /^\w+@\w+\.\w+$/,
+            pattern: {
+              value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+              message: "Please enter a valid email address",
+            },
           }}
           register={register}
           error={errors.email}
           placeholder="contact@jsmmastery.com"
-        />
+        />{" "}
         <InputField
           name="password"
           label="Password"
@@ -83,21 +86,21 @@ const SignUp = () => {
         <SelectField
           name="investmentGoals"
           label="Investment Goals"
-          placeholder="Select you investment goal"
+          placeholder="Select your investment goal"
           options={INVESTMENT_GOALS}
           control={control}
           error={errors.investmentGoals}
           required
-        />
+        />{" "}
         <SelectField
           name="riskTolerance"
-          label="Rist Tolerance"
+          label="Risk Tolerance"
           placeholder="Select your risk tolerance"
           options={RISK_TOLERANCE_OPTIONS}
           control={control}
           error={errors.riskTolerance}
           required
-        />
+        />{" "}
         <SelectField
           name="preferredIndustry"
           label="Prefered Industry"

@@ -35,18 +35,29 @@ const SignIn = () => {
         placeholder="contact@jsmastery.com"
         register={register}
         error={errors.email}
-        validation={{ required: "Emails is required" }}
-      />
+        validation={{
+          required: "Email is required",
+          pattern: {
+            value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+            message: "Invalid email address",
+          },
+        }}
+      />{" "}
       <InputField
         name="password"
         label="Password"
         type="password"
-        placeholder="contact@jsmastery.com"
+        placeholder="Enter your password"
         register={register}
-        error={errors.email}
-        validation={{ required: "Emails is required", minLenght: 8 }}
+        error={errors.password}
+        validation={{
+          required: "Password is required",
+          minLength: {
+            value: 8,
+            message: "Password must be at least 8 characters",
+          },
+        }}
       />
-
       <Button
         variant={"default"}
         className="yellow-btn w-full mt-5"
