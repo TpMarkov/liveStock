@@ -31,7 +31,12 @@ const Userdropdown = () => {
           variant={"ghost"}
         >
           <Avatar className="w-8 h-8 flex items-center">
-            <AvatarImage src={""} sizes={user.name[0] + user.name[1]} />
+            <AvatarImage
+              src={
+                "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?semt=ais_hybrid&w=740&q=80"
+              }
+              sizes={user.name[0] + user.name[1]}
+            />
             <AvatarFallback className="text-yellow-500 bg-yellow-900 text-sm font-bold"></AvatarFallback>
             {user.name[0] + user.name[1].toUpperCase()}
           </Avatar>
@@ -46,7 +51,12 @@ const Userdropdown = () => {
         <DropdownMenuLabel>
           <div className="flex relative items-center gap-3 py-2">
             <Avatar className="w-10 h-10">
-              <AvatarImage src={"/assets/icons/logo.svg"} sizes="icons" />
+              <AvatarImage
+                src={
+                  "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?semt=ais_hybrid&w=740&q=80"
+                }
+                sizes="icons"
+              />
               <AvatarFallback className="text-yellow-500 bg-yellow-900 text-sm font-bold"></AvatarFallback>
               {user.name[0] + user.name[1].toUpperCase()}
             </Avatar>
