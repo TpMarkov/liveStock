@@ -211,6 +211,68 @@
     @apply mx-auto max-w-screen-2xl px-4 md:px-6 lg:px-8;
   }
 
+  .auth-layout {
+    @apply flex flex-col justify-between lg:flex-row h-screen bg-gray-900 relative overflow-hidden;
+  }
 
+  .auth-left-section {
+    @apply w-full lg:w-[45%] lg:h-screen px-6 lg:px-16 flex flex-col overflow-y-auto;
+  }
 
+  .scrollbar-hide-default {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+
+  .auth-logo {
+    @apply pt-6 lg:pt-8 mb-8 lg:mb-12;
+  }
+
+  .auth-right-section {
+    @apply w-full max-lg:border-t max-lg:border-gray-600 lg:w-[55%] lg:h-screen bg-gray-800 px-6 py-4 md:p-6 lg:py-12 lg:px-18 flex flex-col justify-start;
+  }
+
+  .auth-blockquote {
+    @apply text-sm md:text-xl lg:text-2xl font-medium text-gray-400 mb-1 md:mb-6 lg:mb-8;
+  }
+
+  .auth-testimonial-author {
+    @apply text-xs md:text-lg font-bold text-gray-400 not-italic;
+  }
+
+  .auth-dashboard-preview {
+    @apply border-6 border-gray-800 left-0 hidden w-[1024px] h-auto max-w-none lg:block rounded-xl shadow-2xl;
+  }
+
+  .form-title {
+    @apply text-4xl font-bold text-gray-400 mb-10;
+  }
+
+  .form-label {
+    @apply text-sm font-medium text-gray-400;
+  }
+
+  .form-input {
+    @apply h-12 px-3 py-3 text-white text-base placeholder:text-gray-500 border-gray-600 bg-gray-800 rounded-lg focus:ring-0 mb-5;
+  }
+
+  .select-trigger {
+    @apply w-full !h-12 px-3 py-3 text-base border-gray-600 bg-gray-800 text-white rounded-lg;
+  }
+
+  .select-trigger:focus {
+    @apply !border-yellow-500 ring-0;
+  }
+
+  .country-select-trigger {
+    @apply h-12 px-3 py-3 text-base w-full justify-between font-normal border-gray-600 bg-gray-800 text-gray-400 rounded-lg;
+  }
+
+  .country-select-trigger:focus {
+    @apply !border-yellow-500 ring-0;
+  }
+
+  .footer-link {
+    @apply text-gray-400 font-medium hover:text-yellow-400 hover:underline transition-colors;
+  }
 }
