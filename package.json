@@ -8,7 +8,7 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --loader ts-node/esm test-db-connection.ts"
+    "db:start": "node --loader ts-node/esm test-db-connection.ts"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.10",

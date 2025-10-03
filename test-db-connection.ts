@@ -8,8 +8,6 @@ async function testConnection() {
   try {
     await mongoose.connect(MONGODB_URI);
     console.log("✅ Database connection successful!");
-    await mongoose.disconnect();
-    console.log("🔌 Disconnected from database.");
   } catch (error) {
     console.error("❌ Database connection failed:", error);
     process.exit(1);
