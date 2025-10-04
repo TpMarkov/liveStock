@@ -4,12 +4,15 @@ import { CountrySelectField } from "@/components/ui/forms/country-select";
 import FooterLink from "@/components/ui/forms/footer-link";
 import InputField from "@/components/ui/forms/input-field";
 import SelectField from "@/components/ui/forms/select-field";
+import { signUpWithEmail } from "@/lib/actions/auth.actions";
 import {
   INVESTMENT_GOALS,
   PREFERRED_INDUSTRIES,
   RISK_TOLERANCE_OPTIONS,
 } from "@/lib/constants";
+import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
+import { toast } from "sonner";
 
 const SignUp = () => {
   const {
@@ -30,11 +33,18 @@ const SignUp = () => {
     mode: "onBlur",
   });
 
+  const router = useRouter();
+
   const onSubmit = async (data: SignUpFormData) => {
     try {
-      console.log(data);
-    } catch (error) {
-      console.error(error);
+      const result = await signUpWithEmail(data);
+      if (result?.success) router.push("/");
+    } catch (e) {
+      console.error(e);
+      toast.error("Sign up failed", {
+        description:
+          e instanceof Error ? e.message : "Failed to create an account.",
+      });
     }
   };
 
@@ -46,36 +56,35 @@ const SignUp = () => {
         <InputField
           name="fullName"
           label="Full Name"
+          placeholder="John Doe"
           register={register}
           error={errors.fullName}
-          placeholder="John Doe"
           validation={{ required: "Full name is required", minLength: 2 }}
-        />{" "}
+        />
+
         <InputField
           name="email"
           label="Email"
-          type="email"
-          validation={{
-            required: "Email is required",
-            pattern: {
-              value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-              message: "Please enter a valid email address",
-            },
-          }}
+          placeholder="contact@jsmastery.com"
           register={register}
           error={errors.email}
-          placeholder="contact@jsmmastery.com"
-        />{" "}
+          validation={{
+            required: "Email name is required",
+            pattern: /^\w+@\w+\.\w+$/,
+            message: "Email address is required",
+          }}
+        />
+
         <InputField
           name="password"
           label="Password"
+          placeholder="Enter a strong password"
           type="password"
-          validation={{ required: "Password is requried", minLenght: 8 }}
           register={register}
           error={errors.password}
-          placeholder="Enter a strong password"
+          validation={{ required: "Password is required", minLength: 8 }}
         />
-        {/* Country */}
+
         <CountrySelectField
           name="country"
           label="Country"
@@ -83,6 +92,7 @@ const SignUp = () => {
           error={errors.country}
           required
         />
+
         <SelectField
           name="investmentGoals"
           label="Investment Goals"
@@ -91,20 +101,22 @@ const SignUp = () => {
           control={control}
           error={errors.investmentGoals}
           required
-        />{" "}
+        />
+
         <SelectField
           name="riskTolerance"
           label="Risk Tolerance"
-          placeholder="Select your risk tolerance"
+          placeholder="Select your risk level"
           options={RISK_TOLERANCE_OPTIONS}
           control={control}
           error={errors.riskTolerance}
           required
-        />{" "}
+        />
+
         <SelectField
           name="preferredIndustry"
-          label="Prefered Industry"
-          placeholder="Select you investment goal"
+          label="Preferred Industry"
+          placeholder="Select your preferred industry"
           options={PREFERRED_INDUSTRIES}
           control={control}
           error={errors.preferredIndustry}
