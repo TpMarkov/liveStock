@@ -29,7 +29,7 @@ const SignIn = () => {
       if (result?.success) router.push("/");
     } catch (e) {
       console.error(e);
-      toast.error("Sign up failed", {
+      toast.error("Login failed", {
         description: e instanceof Error ? e.message : "Failed to login.",
       });
     }
