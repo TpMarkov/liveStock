@@ -67,12 +67,9 @@ export default function SearchCommand({
   return (
     <>
       {renderAs === "text" ? (
-        <div className="flex justify-between items-center">
-          <span onClick={() => setOpen(true)} className="search-text">
-            {label}
-          </span>
-          <span className="text-xs">ctrl+K</span>
-        </div>
+        <span onClick={() => setOpen(true)} className="search-text">
+          {label}
+        </span>
       ) : (
         <Button onClick={() => setOpen(true)} className="search-btn">
           {label}
