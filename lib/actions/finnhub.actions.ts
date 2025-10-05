@@ -6,7 +6,7 @@ import { cache } from "react";
 
 const FINNHUB_BASE_URL = "https://finnhub.io/api/v1";
 const NEXT_PUBLIC_FINNHUB_API_KEY =
-  process.env.NEXT_PUBLIC_FINNHUB_API_KEY ?? "";
+  process.env.NEXT_PUBLICK_FINNHUB_API_KEY ?? "";
 
 async function fetchJSON<T>(
   url: string,
