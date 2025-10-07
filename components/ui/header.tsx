@@ -13,17 +13,16 @@ const Header = async ({ user }: { user: User }) => {
         <Link href="/">
           <Image
             src="/assets/icons/logo.svg"
-            alt="Signalist"
+            alt="Signalist logo"
             width={140}
             height={32}
             className="h-8 w-auto cursor-pointer"
           />
         </Link>
         <nav className="hidden sm:block">
-          {/* NavItems */}
           <NavItems initialStocks={initialStocks} />
         </nav>
-        {/* UserDropdown */}
+
         <Userdropdown user={user} initialStocks={initialStocks} />
       </div>
     </header>
