@@ -7,7 +7,6 @@ import React, { useMemo, useState } from "react";
 
 const WatchlistButton = ({
   symbol,
-  company,
   isInWatchlist,
   showTrashIcon = false,
   type = "button",
