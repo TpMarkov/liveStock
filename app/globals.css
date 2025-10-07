@@ -327,4 +327,30 @@
   .search-item-name {
     @apply font-medium text-base text-gray-400;
   }
+
+  .watchlist-btn {
+    @apply bg-yellow-500 text-base hover:bg-yellow-500 text-gray-900 w-full rounded h-11 font-semibold cursor-pointer;
+  }
+
+  .watchlist-icon-btn {
+    @apply w-fit cursor-pointer hover:bg-transparent text-gray-400 hover:text-yellow-500;
+  }
+
+  .watchlist-icon-added {
+    @apply text-yellow-500 hover:text-yellow-600;
+  }
+
+  .watchlist-icon {
+    @apply w-8 h-8 rounded-full flex items-center justify-center bg-gray-700/50;
+  }
+
+  .watchlist {
+    @apply lg:col-span-2 space-y-8;
+  }
+
+  .custom-chart.tradingview-widget-container iframe {
+    border: 1px solid #30333A;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+  }
 }
