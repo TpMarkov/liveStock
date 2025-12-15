@@ -36,11 +36,11 @@ This project utilizes the latest web technologies for performance and scalabilit
 
 | Dashboard Overview | Stock Heatmap |
 | :---: | :---: |
-| ![Dashboard Placeholder](https://i.ibb.co/MxGrRHWx/Untitled.png) | ![Heatmap Placeholder](https://placehold.co/300x200?text=Stock+Heatmap) |
+| ![Dashboard Placeholder](https://i.ibb.co/yFNvXn7T/Untitled2.png) | ![Heatmap Placeholder](https://i.ibb.co/MxGrRHWx/Untitled.png) |
 
 | Market News | Login Screen |
 | :---: | :---: |
-| ![News Placeholder](https://placehold.co/300x200?text=Market+News) | ![Login Placeholder](https://placehold.co/300x200?text=Login+Screen) |
+| ![News Placeholder](https://i.ibb.co/JwMs9skb/market-news.png) | ![Login Placeholder](https://i.ibb.co/R4V4RD5y/sign-up-page.png) |
 
 ### ℹ️ How to Add Images
 To replace the placeholders above with your own screenshots:
