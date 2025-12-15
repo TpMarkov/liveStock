@@ -1,0 +1,22 @@
+RESUME PROJECT DESCRIPTION
+--------------------------
+
+Here are a few options for including this project in your resume. Choose the format that best fits your resume's style.
+
+OPTION 1: Standard Bullet Points (Recommended)
+----------------------------------------------
+**Signalist Stock Market** | *Next.js, TypeScript, MongoDB, Tailwind CSS*
+*   Developed a real-time financial analytics dashboard providing live market overviews, stock heatmaps, and news timelines using **Next.js 16** and **TypeScript**.
+*   Integrated **TradingView** widgets to deliver high-performance, interactive data visualization for traders and investors.
+*   Implemented secure user authentication with **Better-Auth** and optimized data storage using **MongoDB** and **Mongoose**.
+*   Designed a responsive, modern user interface leveraging **Tailwind CSS 4** and **Shadcn/UI** components.
+
+OPTION 2: Concise Summary
+-------------------------
+**Signalist Stock Market:** Engineered a real-time stock market tracking application using **Next.js 16** and **TypeScript**. Integrated **TradingView** APIs to visualize live market trends and financial news. Implemented **Better-Auth** for security and **MongoDB** for scalable data management, wrapped in a responsive **Tailwind CSS** interface.
+
+OPTION 3: Action-Oriented (Short)
+---------------------------------
+*   **Built** a live stock market dashboard with **Next.js 16**, enabling real-time asset tracking via **TradingView** integration.
+*   **Secured** application access using **Better-Auth** and **MongoDB** for robust user data management.
+*   **Designed** a highly responsive UI with **Tailwind CSS 4**, improving data readability for financial analysis.
