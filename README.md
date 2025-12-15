@@ -36,7 +36,7 @@ This project utilizes the latest web technologies for performance and scalabilit
 
 | Dashboard Overview | Stock Heatmap |
 | :---: | :---: |
-| ![Dashboard Placeholder](https://placehold.co/300x200?text=Dashboard+Overview) | ![Heatmap Placeholder](https://placehold.co/300x200?text=Stock+Heatmap) |
+| ![Dashboard Placeholder](https://i.ibb.co/MxGrRHWx/Untitled.png) | ![Heatmap Placeholder](https://placehold.co/300x200?text=Stock+Heatmap) |
 
 | Market News | Login Screen |
 | :---: | :---: |
