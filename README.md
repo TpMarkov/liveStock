@@ -34,9 +34,9 @@ This project utilizes the latest web technologies for performance and scalabilit
 ## 📸 Screenshots
 *(See "How to Add Images" below to replace these placeholders)*
 
-| Hero Overview | Stock Heatmap |
+| Hero Overview | Art |
 | :---: | :---: |
-| ![Hero Placeholder](https://i.ibb.co/Q3vRhTKb/home.png) | ![Heatmap Placeholder](https://i.ibb.co/MxGrRHWx/Untitled.png) |
+| ![Hero Placeholder](https://i.ibb.co/Q3vRhTKb/home.png) | ![Art Placeholder](https://i.ibb.co/8n6zmmbf/image2.png) |
 
 | Market News | Login Screen |
 | :---: | :---: |
