@@ -32,7 +32,6 @@ This project utilizes the latest web technologies for performance and scalabilit
 *   **Background Jobs**: Inngest
 
 ## 📸 Screenshots
-*(See "How to Add Images" below to replace these placeholders)*
 
 | Hero Overview |  Top Stories |
 | :---: | :---: |
