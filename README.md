@@ -36,7 +36,7 @@ This project utilizes the latest web technologies for performance and scalabilit
 
 | Hero Overview | Art |
 | :---: | :---: |
-| ![Hero Placeholder](https://i.ibb.co/Q3vRhTKb/home.png) | ![Art Placeholder](https://i.ibb.co/8n6zmmbf/image2.png) |
+| ![Hero Placeholder](https://i.ibb.co/R4V4RD5y/sign-up-page.png) | ![Art Placeholder](https://i.ibb.co/8n6zmmbf/image2.png) |
 
 | Market News | Login Screen |
 | :---: | :---: |
