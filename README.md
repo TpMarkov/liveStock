@@ -1,6 +1,14 @@
 # Signalist Stock Market
 
-**A generic, real-time financial market tracking application.**
+**A real-time financial market tracking platform built with Next.js that allows users to monitor global stocks, heatmaps, and financial news through interactive TradingView widgets.**
+
+![Next.js](https://img.shields.io/badge/Next.js-16.0.10-black?style=flat-square&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue?style=flat-square&logo=typescript)
+![React](https://img.shields.io/badge/React-19.2.3-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=flat-square&logo=tailwind-css)
+![MongoDB](https://img.shields.io/badge/MongoDB-6.20.0-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Better-Auth](https://img.shields.io/badge/Better--Auth-1.3.26-EB5454?style=flat-square)
+![Inngest](https://img.shields.io/badge/Inngest-3.44.1-000000?style=flat-square)
 
 [**Visit Live Website**](https://signalist-stock-market.vercel.app)
 
