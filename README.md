@@ -40,24 +40,14 @@ This project utilizes the latest web technologies for performance and scalabilit
 *   **Background Jobs**: Inngest
 
 ## 📸 Screenshots
-*(See "How to Add Images" below to replace these placeholders)*
 
-| Dashboard Overview | Stock Heatmap |
+| Hero Overview |  Top Stories |
 | :---: | :---: |
-| ![Dashboard Placeholder](https://placehold.co/300x200?text=Dashboard+Overview) | ![Heatmap Placeholder](https://placehold.co/300x200?text=Stock+Heatmap) |
+| ![Hero Placeholder](https://i.ibb.co/MxGrRHWx/Untitled.png) | ![Top Stories](https://i.ibb.co/yFNvXn7T/Untitled2.png) |
 
 | Market News | Login Screen |
 | :---: | :---: |
-| ![News Placeholder](https://placehold.co/300x200?text=Market+News) | ![Login Placeholder](https://placehold.co/300x200?text=Login+Screen) |
-
-### ℹ️ How to Add Images
-To replace the placeholders above with your own screenshots:
-1.  Take screenshots of your application (keep them around 300x200px or similar aspect ratio for consistency).
-2.  Create a folder named `public/images` in your project directory.
-3.  Add your image files (e.g., `dashboard.png`, `heatmap.png`) to that folder.
-4.  Edit this `README.md` file and replace the links.
-    *   Change `https://placehold.co/300x200?text=Dashboard+Overview` to `./public/images/dashboard.png` (or just `/images/dashboard.png` if hosted).
-    *   *Note: For GitHub, it's best to push the images to the repo and use relative paths like `images/dashboard.png` (assuming you move them to a root `images` folder) or `public/images/dashboard.png`.*
+| ![News Placeholder](https://i.ibb.co/JwMs9skb/market-news.png) | ![Login Placeholder](https://i.ibb.co/R4V4RD5y/sign-up-page.png) |
 
 ## 💻 Getting Started (For Developers)
 
